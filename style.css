@@ -207,7 +207,17 @@ margin-top:40px;
 }
 
 @media(max-width:768px){
+header {
+    padding: 15px 10px;
+}
 
+.logo img {
+    height: 60px;
+}
+
+.qualibat-logo {
+    height: 50px;
+}
 header{
 padding:15px;
 flex-direction:column;
@@ -393,8 +403,8 @@ gap:15px;
 }
 
 .btn-contact{
-width:100%;
-max-width:220px;
+width:auto;
+padding:15px 35px;
 text-align:center;
 }
 
@@ -434,6 +444,39 @@ padding:50px 20px;
 
 .footer-card{
 padding:20px;
+}
+
+}
+@media (max-width: 768px){
+
+.avantages{
+    padding:60px 20px;
+}
+
+.avantages h2{
+    font-size:28px;
+    margin-bottom:30px;
+}
+
+.avantages-grid{
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.avantage{
+    padding:25px;
+}
+
+.avantage h3{
+    font-size:40px;
+}
+
+.avantage p{
+    font-size:16px;
+}
+
+.footer-pro h2{
+    font-size:28px;
 }
 
 }
