@@ -267,3 +267,40 @@ transition:.3s;
 transform:translateY(-10px);
 box-shadow:0 20px 40px rgba(0,0,0,.15);
 }
+.avantages{
+padding:100px 40px;
+background:white;
+text-align:center;
+}
+
+.avantages h2{
+font-size:42px;
+color:#0078c8;
+margin-bottom:50px;
+}
+
+.avantages-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+max-width:1400px;
+margin:auto;
+}
+
+.avantage{
+background:#f5f7fa;
+padding:40px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.avantage h3{
+font-size:50px;
+color:#0099e6;
+margin-bottom:15px;
+}
+
+.avantage p{
+font-size:18px;
+color:#555;
+}
