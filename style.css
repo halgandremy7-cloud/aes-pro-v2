@@ -23,10 +23,19 @@ box-shadow:0 2px 15px rgba(0,0,0,.1);
 z-index:1000;
 }
 
-.logo img{
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo-aes{
 height:70px;
 }
 
+.logo-rge{
+height:70px;
+}
 nav{
 display:flex;
 gap:30px;
