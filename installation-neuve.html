@@ -175,5 +175,21 @@
     </div>
 
 </section>
+<script>
+function toggleGallery(){
+
+    const gallery = document.getElementById('morePhotos');
+    const btn = document.getElementById('galleryBtn');
+
+    gallery.classList.toggle('show');
+
+    if(gallery.classList.contains('show')){
+        btn.textContent = 'Voir moins';
+    }else{
+        btn.textContent = 'Voir plus de réalisations';
+    }
+
+}
+</script>
 </body>
 </html>
