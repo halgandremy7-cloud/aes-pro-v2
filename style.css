@@ -764,7 +764,7 @@ background-size:100%;
     }
 
     .card {
-        min-width: 85%;
+        min-width: 80%;
         scroll-snap-align: center;
         flex-shrink: 0;
     }
@@ -779,7 +779,7 @@ background-size:100%;
     }
 
     .avantage {
-        min-width: 85%;
+        min-width: 75%;
         scroll-snap-align: center;
         flex-shrink: 0;
     }
@@ -793,4 +793,8 @@ background-size:100%;
         display: block;
     }
 
+}
+html,
+body{
+overflow-x:hidden;
 }
