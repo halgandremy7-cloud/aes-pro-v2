@@ -138,7 +138,7 @@ transform:translateY(-10px);
 
 .card img{
 width:100%;
-height:250px;
+height:180px;
 object-fit:cover;
 }
 
@@ -763,11 +763,13 @@ background-size:100%;
         padding: 20px;
     }
 
-    .card {
-        min-width: 80%;
-        scroll-snap-align: center;
-        flex-shrink: 0;
-    }
+   .card {
+    min-width: 80%;
+    max-width: 320px;
+    min-height: 420px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+}
 
     /* Pourquoi choisir AES */
     .avantages-grid {
