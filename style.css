@@ -814,7 +814,7 @@ overflow-x:hidden;
 
 .slider-arrow{
     position:absolute;
-    top:50%;
+    top:220%;
     transform:translateY(-50%);
     width:45px;
     height:45px;
@@ -828,11 +828,11 @@ overflow-x:hidden;
 }
 
 .slider-arrow.left{
-    left:5px;
+    left:10px;
 }
 
 .slider-arrow.right{
-    right:5px;
+    right:10px;
 }
 
 @media(min-width:769px){
