@@ -623,3 +623,17 @@ padding:20px;
 }
 
 }
+.engagement-card{
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+.engagement-card i{
+    font-size:50px;
+    color:#0f8ae8;
+    margin-bottom:20px;
+    display:block;
+}
