@@ -513,7 +513,12 @@ background-size:100%;
     inset:0;
     background:rgba(0,0,0,.45);
 }
-
+.hero-pv::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
 .hero-install-content{
     position:relative;
     z-index:2;
@@ -812,7 +817,6 @@ background-size:100%;
     min-width:85%;
     scroll-snap-align:center;
     flex-shrink:0;
-}
 }
 body{
 overflow-x:hidden;
