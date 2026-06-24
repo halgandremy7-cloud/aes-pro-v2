@@ -205,14 +205,16 @@
 </div>
 
 <button class="accordion-btn">
-📞 Téléphone
+    <span>Téléphone</span>
+    <span class="accordion-icon">+</span>
 </button>
 <div class="accordion-content">
 <p>02 40 46 77 14</p>
 </div>
 
 <button class="accordion-btn">
-🏆 Certification
+    <span>Certification</span>
+    <span class="accordion-icon">+</span>
 </button>
 <div class="accordion-content">
 <img src="images/logo rge.webp" width="120">
@@ -250,12 +252,14 @@ document.querySelectorAll('.accordion-btn').forEach(btn => {
 btn.addEventListener('click', () => {
 
 const content = btn.nextElementSibling;
+const icon = btn.querySelector('.accordion-icon');
 
 if(content.style.display === 'block'){
-content.style.display = 'none';
-}
-else{
-content.style.display = 'block';
+    content.style.display = 'none';
+    icon.textContent = '+';
+}else{
+    content.style.display = 'block';
+    icon.textContent = '-';
 }
 
 });
