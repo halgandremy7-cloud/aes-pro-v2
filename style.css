@@ -763,10 +763,10 @@ background-size:100%;
         padding: 20px;
     }
 
-   .card {
-    min-width: 80%;
-    max-width: 320px;
-    min-height: 420px;
+  .card {
+    min-width: 85%;
+    max-width: 85%;
+    min-height: auto;
     scroll-snap-align: center;
     flex-shrink: 0;
 }
@@ -781,22 +781,30 @@ background-size:100%;
     }
 
     .avantage {
-        min-width: 75%;
+        min-width: 85%;
         scroll-snap-align: center;
         flex-shrink: 0;
     }
 
     /* Footer accordéon */
-    .footer-grid {
-        display: none;
-    }
 
     .footer-mobile {
         display: block;
     }
-
+.footer-grid{
+    display:flex;
+    overflow-x:auto;
+    gap:20px;
+    padding:20px;
+    scroll-snap-type:x mandatory;
 }
-html,
+
+.footer-card{
+    min-width:85%;
+    scroll-snap-align:center;
+    flex-shrink:0;
+}
+}
 body{
 overflow-x:hidden;
 }
