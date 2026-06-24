@@ -497,7 +497,16 @@ background-size:100%;
     color:white;
     position:relative;
 }
-
+.hero-pv{
+    min-height:500px;
+   background:url("images/image-panneaux-photovoltaique-couverture.jpg") center center;
+background-size:100%;
+    display:flex;
+    align-items:center;
+    padding:80px;
+    color:white;
+    position:relative;
+}
 .hero-install::before{
     content:"";
     position:absolute;
