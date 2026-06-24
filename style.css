@@ -733,3 +733,64 @@ background-size:100%;
 .infos-colonne img{
     width:120px;
 }
+@media (max-width: 768px) {
+
+    /* Menu */
+    nav {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 450px;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    /* Services */
+    .cards {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        min-width: 85%;
+        scroll-snap-align: center;
+        flex-shrink: 0;
+    }
+
+    /* Pourquoi choisir AES */
+    .avantages-grid {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .avantage {
+        min-width: 85%;
+        scroll-snap-align: center;
+        flex-shrink: 0;
+    }
+
+    /* Footer accordéon */
+    .footer-grid {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+    }
+
+}
