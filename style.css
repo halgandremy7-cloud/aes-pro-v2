@@ -485,3 +485,141 @@ padding:20px;
     grid-template-columns:1fr 1fr;
     gap:15px;
 }
+/* PAGE INSTALLATION NEUVE */
+
+.hero-install{
+    min-height:500px;
+    background:url("images/image1.jpg") center center/cover;
+    display:flex;
+    align-items:center;
+    padding:80px;
+    color:white;
+    position:relative;
+}
+
+.hero-install::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.hero-install-content{
+    position:relative;
+    z-index:2;
+    max-width:600px;
+}
+
+.hero-install-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-install-content p{
+    font-size:22px;
+    line-height:1.6;
+}
+
+.engagement{
+    padding:80px 20px;
+    text-align:center;
+    background:white;
+}
+
+.engagement span{
+    color:#0078c8;
+    font-weight:bold;
+}
+
+.engagement h2{
+    font-size:42px;
+    margin:20px 0;
+}
+
+.engagement-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    max-width:1200px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.engagement-grid div{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.prestations{
+    max-width:1300px;
+    margin:80px auto;
+    padding:0 20px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+
+.prestations h2{
+    font-size:42px;
+    margin-bottom:30px;
+}
+
+.prestations li{
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+.prestations-images{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.prestations-images img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.cta-install{
+    background:#0078c8;
+    color:white;
+    padding:50px;
+    border-radius:20px;
+    max-width:1300px;
+    margin:80px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+@media(max-width:768px){
+
+.hero-install{
+    padding:40px 25px;
+    min-height:400px;
+}
+
+.hero-install-content h1{
+    font-size:42px;
+}
+
+.engagement-grid{
+    grid-template-columns:1fr;
+}
+
+.prestations{
+    grid-template-columns:1fr;
+}
+
+.cta-install{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+}
+
+}
