@@ -840,3 +840,27 @@ overflow-x:hidden;
         display:none;
     }
 }
+.accordion{
+    margin-top:30px;
+}
+
+.accordion-btn{
+    width:100%;
+    padding:18px;
+    margin-bottom:10px;
+    background:#1b4b73;
+    color:white;
+    border:none;
+    border-radius:12px;
+    font-size:20px;
+    font-weight:600;
+    text-align:left;
+}
+
+.accordion-content{
+    display:none;
+    padding:15px;
+    background:#234f78;
+    border-radius:12px;
+    margin-bottom:15px;
+}
