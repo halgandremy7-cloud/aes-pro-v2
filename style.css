@@ -489,7 +489,8 @@ padding:20px;
 
 .hero-install{
     min-height:500px;
-    background:url("images/eclairages-aes2.jpeg") center center/cover;
+   background:url("images/eclairages-aes2.jpeg") center center;
+background-size:105%;
     display:flex;
     align-items:center;
     padding:80px;
