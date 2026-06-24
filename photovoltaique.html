@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AES - Atlantique Électricité Services</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
 
+<body>
+
+<header>
+   <div class="logo">
+    <img src="images/logo-aes.png" alt="AES" class="logo-aes">
+
+    <img src="images/logo rge.webp" alt="Qualibat" class="logo-rge">
+</div>
+
+   <nav>
+    <a href="index.html">Accueil</a>
+    <a href="index.html#services">Services</a>
+    <a href="index.html#contact">Contact</a>
+</nav>
+
+    <a href="tel:0240467714" class="btn-contact">
+        02 40 46 77 14
+    </a>
+</header>
+
+<section class="hero-install">
+
+    <div class="hero-install-content">
+
+        <h1>Installation Neuve</h1>
+
+        <p>
+            AES réalise l'installation complète de vos Étude, installation et maintenance de système photovoltaïquess neufs.
+        </p>
+        <a href="#contact" class="btn-main">
+            Nous contacter
+        </a>
+
+    </div>
+
+</section>
+<section class="engagement">
+
+    <span>NOTRE ENGAGEMENT</span>
+
+    <h2>Des installations fiables, durables et conformes</h2>
+
+    <p>
+        Nous vous accompagnons de l'étude de votre projet jusqu'à la mise en service,
+        en respectant les normes en vigueur et vos exigences techniques.
+    </p>
+
+    <div class="engagement-grid">
+
+       <div class="engagement-card">
+    <i class="fa-solid fa-shield-halved"></i>
+    <h3>Sécurité</h3>
+    <p>Installations conformes et sécurisées.</p>
+</div>
+
+<div class="engagement-card">
+    <i class="fa-solid fa-bolt"></i>
+    <h3>Performance</h3>
+    <p>Solutions adaptées à vos besoins.</p>
+</div>
+
+<div class="engagement-card">
+    <i class="fa-solid fa-award"></i>
+    <h3>Qualité</h3>
+    <p>Matériel fiable et mise en œuvre soignée.</p>
+</div>
+
+<div class="engagement-card">
+    <i class="fa-regular fa-clock"></i>
+    <h3>Respect des délais</h3>
+    <p>Travaux réalisés dans les délais convenus.</p>
+</div>
+    </div>
+
+</section>
+
+<section class="prestations">
+
+    <div class="prestations-text">
+
+        <h2>Nos prestations</h2>
+
+        <ul class="prestations-list">
+
+<li><i class="fa-solid fa-circle-check"></i> Étude et conception de votre installation photovoltaïques</li>
+
+<li><i class="fa-solid fa-circle-check"></i> Installation de système photovoltaïques</li>
+
+<li><i class="fa-solid fa-circle-check"></i> Maintenance préventive et corrective</li>
+
+<li><i class="fa-solid fa-circle-check"></i> Entreprise certifiée RGE QualiPV</li>
+
+</ul>
+
+    </div>
+
+    <div class="prestations-images">
+
+        <img src="images/pv1.jpg" alt="">
+        <img src="images/pv2.jpg" alt="">
+        <img src="images/pv3.jpg" alt="">
+        <img src="images/" alt="">
+
+    </div>
+<button id="galleryBtn" class="btn-gallery" onclick="toggleGallery()">
+    Voir plus de réalisations
+</button>
+
+<div id="morePhotos" class="hidden-gallery">
+
+    <img src="images/" alt="">
+    <img src="images/" alt="">
+    <img src="images/" alt="">
+    <img src="images/" alt="">
+
+</div>
+</section>
+
+<section class="infos-entreprise">
+
+    <div class="infos-colonne">
+        <h3>AES - Atlantique Électricité Services</h3>
+
+        <p>
+            Maintenance Électrique<br>
+            Dépannage<br>
+            Installation Neuve<br>
+            Photovoltaïque<br>
+            Bornes IRVE
+        </p>
+    </div>
+
+    <div class="infos-colonne">
+        <h3>Nos agences</h3>
+
+        <p>
+            Saint-Herblain<br>
+            5 Impasse de l'Estuaire
+        </p>
+
+        <p>
+            Saint-Nazaire<br>
+            6 Rue des Chantiers
+        </p>
+    </div>
+
+    <div class="infos-colonne">
+        <h3>Contact</h3>
+
+        <p>02 40 46 77 14</p>
+
+        <p>
+            Lun - Ven<br>
+            8h00 - 18h00
+        </p>
+    </div>
+
+    <div class="infos-colonne">
+        <h3>Certification</h3>
+
+        <img src="images/logo rge.webp" alt="Qualibat">
+    </div>
+
+</section>
+<script>
+function toggleGallery(){
+
+    const gallery = document.getElementById('morePhotos');
+    const btn = document.getElementById('galleryBtn');
+
+    gallery.classList.toggle('show');
+
+    if(gallery.classList.contains('show')){
+        btn.textContent = 'Voir moins';
+    }else{
+        btn.textContent = 'Voir plus de réalisations';
+    }
+
+}
+</script>
+</body>
+</html>
