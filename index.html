@@ -228,6 +228,22 @@ AES - Atlantique Électricité Services • Maintenance Électrique • Dépanna
 </div>
 
 </footer>
+<script>
+const cards = document.querySelector('.cards');
 
+document.querySelector('.left').onclick = () => {
+    cards.scrollBy({
+        left:-320,
+        behavior:'smooth'
+    });
+};
+
+document.querySelector('.right').onclick = () => {
+    cards.scrollBy({
+        left:320,
+        behavior:'smooth'
+    });
+};
+</script>
 </body>
 </html>
