@@ -637,3 +637,23 @@ padding:20px;
     margin-bottom:20px;
     display:block;
 }
+.prestations-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.prestations-list li{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    margin-bottom:22px;
+    font-size:20px;
+    line-height:1.6;
+}
+
+.prestations-list i{
+    color:#0f8ae8;
+    font-size:22px;
+    margin-top:4px;
+}
