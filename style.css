@@ -811,34 +811,6 @@ overflow-x:hidden;
 .slider-wrapper{
     position:relative;
 }
-
-.slider-arrow{
-    position:absolute;
-    top:220%;
-    transform:translateY(-50%);
-    width:45px;
-    height:45px;
-    border:none;
-    border-radius:50%;
-    background:#0078c8;
-    color:white;
-    font-size:24px;
-    cursor:pointer;
-    z-index:10;
-}
-
-.slider-arrow.left{
-    left:10px;
-}
-
-.slider-arrow.right{
-    right:10px;
-}
-
-@media(min-width:769px){
-    .slider-arrow{
-        display:none;
-    }
 }
 .accordion{
     margin-top:30px;
