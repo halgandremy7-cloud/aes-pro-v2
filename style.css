@@ -553,6 +553,23 @@ background-size:100%;
     inset:0;
     background:rgba(0,0,0,.45);
 }
+.hero-irve{
+    min-height:500px;
+    background:url("images/borne-recharge-couverture.jpg") center center;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    padding:80px;
+    color:white;
+    position:relative;
+}
+
+.hero-irve::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
 .hero-install-content{
     position:relative;
     z-index:2;
