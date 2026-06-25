@@ -535,7 +535,7 @@ background-size:100%;
     position:absolute;
     inset:0;
     background:rgba(0,0,0,.45);
-
+}
 .hero-maintenance{
     min-height:500px;
     background:url("images/pv3.jpg") center center;
@@ -554,18 +554,18 @@ background-size:100%;
     background:rgba(0,0,0,.45);
 }
 }
-.hero-install-content{
+.hero-service-content{
     position:relative;
     z-index:2;
     max-width:600px;
 }
 
-.hero-install-content h1{
+.hero-service-content h1{
     font-size:60px;
     margin-bottom:20px;
 }
 
-.hero-install-content p{
+.hero-service-content p{
     font-size:22px;
     line-height:1.6;
 }
