@@ -554,20 +554,23 @@ background-size:100%;
     background:rgba(0,0,0,.45);
 }
 }
-.hero-service-content{
+.hero-install-content{
     position:relative;
     z-index:2;
     max-width:600px;
 }
 
-.hero-service-content h1{
+.hero-install-content h1{
     font-size:60px;
     margin-bottom:20px;
+    color:white;
 }
 
-.hero-service-content p{
+.hero-install-content p{
     font-size:22px;
     line-height:1.6;
+    color:white;
+    margin-bottom:30px;
 }
 
 .engagement{
