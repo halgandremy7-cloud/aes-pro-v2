@@ -535,6 +535,7 @@ background-size:100%;
     position:absolute;
     inset:0;
     background:rgba(0,0,0,.45);
+
 .hero-maintenance{
     min-height:500px;
     background:url("images/image-maintenance-couverture.jpg") center center;
